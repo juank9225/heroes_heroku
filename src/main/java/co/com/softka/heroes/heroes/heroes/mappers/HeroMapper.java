@@ -2,11 +2,13 @@ package co.com.softka.heroes.heroes.heroes.mappers;
 
 import co.com.softka.heroes.heroes.heroes.domain.Hero;
 import co.com.softka.heroes.heroes.heroes.heroDTO.HeroDTO;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+@Component
 public class HeroMapper {
 
     public Hero fromHeroDTOToHero(HeroDTO heroDTO){
